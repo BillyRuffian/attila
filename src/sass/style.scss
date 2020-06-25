@@ -31,10 +31,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
 	background: #FFF;
-	@media (prefers-color-scheme: dark) {
-		background: $color-background-dark;
-		color: $color-text-primary-dark;
-	}
 }
 
 button,
@@ -68,9 +64,6 @@ textarea {
 		margin: 0 0 4rem;
 		text-rendering: optimizeLegibility;
 		color: #000;
-		@media (prefers-color-scheme: dark) {
-			color: #FFF;
-		}
 	}
 
 	h1 {
@@ -170,9 +163,6 @@ textarea {
 		padding: 0;
 		background: $color-border;
 		border: 0;
-		@media (prefers-color-scheme: dark) {
-			background: $color-border-dark;
-		}
 	}
 
 	blockquote {
@@ -208,9 +198,6 @@ textarea {
 	b,
 	strong {
 		font-weight: 700;
-		@media (prefers-color-scheme: dark) {
-			color: $color-neutral-80;
-		}
 	}
 
 	small {
@@ -261,10 +248,6 @@ textarea {
 		border: 1px solid $color-border;
 		top: -2px;
 		white-space: pre-wrap;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-			border-color: $color-border-dark;
-		}
 	}
 
 	pre {
@@ -277,10 +260,6 @@ textarea {
 		background: $color-background;
 		border: 1px solid $color-border;
 		box-sizing: border-box;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-			border-color: $color-border-dark;
-		}
 	}
 
 	pre .lines {
@@ -299,10 +278,6 @@ textarea {
 		background: $color-background;
 		user-select: none;
 		-webkit-user-select: none;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-			border-color: $color-border-dark;
-		}
 	}
 
 	pre .lines .line {
@@ -341,10 +316,6 @@ textarea {
 		background: $color-background;
 		border-radius: 4px;
 		box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #FFF inset;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-			border-color: $color-border-dark;
-		}
 	}
 
 	table {
@@ -354,10 +325,6 @@ textarea {
 		margin: 0 0 4rem;
 		border: 1px solid $color-border;
 		background: $color-background;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-			background: $color-background-dark;
-		}
 
 		td,
 		th {
@@ -366,9 +333,6 @@ textarea {
 			font-size: 0.75em;
 			line-height: 1.33334em;
 			border: 1px solid $color-border;
-			@media (prefers-color-scheme: dark) {
-				border-color: $color-border-dark;
-			}
 		}
 
 		th {
@@ -413,23 +377,14 @@ textarea {
 			width: 8rem;
 			height: 1px;
 			background: $color-border;
-			@media (prefers-color-scheme: dark) {
-				background: $color-border-dark;
-			}
 		}
 
 		a {
 			box-shadow: inset 0 -1px 0 $color-border;
-			@media (prefers-color-scheme: dark) {
-				box-shadow: inset 0 -1px 0 $color-border-dark;
-			}
 
 			&:focus,
 			&:hover {
 				box-shadow: inset 0 -2px 0 $color-border;
-				@media (prefers-color-scheme: dark) {
-					box-shadow: inset 0 -2px 0 $color-border-dark;
-				}
 			}
 		}
 	}
@@ -523,10 +478,6 @@ textarea {
 		border: 1px solid $color-border;
 		box-shadow: none !important;
 		overflow: hidden;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-			border-color: $color-border-dark;
-		}
 	}
 
 	.kg-bookmark-content {
@@ -538,9 +489,6 @@ textarea {
 		justify-content: start;
 		padding: 1.5em;
 		color: $color-text-secondary;
-		@media (prefers-color-scheme: dark) {
-			color: $color-text-secondary-dark;
-		}
 	}
 
 	.kg-bookmark-title {
@@ -549,9 +497,6 @@ textarea {
 		line-height: 1.66667em;
 		font-weight: 700;
 		letter-spacing: 0.5px;
-		@media (prefers-color-scheme: dark) {
-			color: $color-text-primary-dark;
-		}
 	}
 
 	.kg-bookmark-description {
@@ -591,9 +536,6 @@ textarea {
 		font-weight: 400;
 		margin-top: 1em;
 		flex-wrap: wrap;
-		@media (prefers-color-scheme: dark) {
-			color: $color-text-primary-dark;
-		}
 	}
 
 	.kg-bookmark-icon {
@@ -656,10 +598,6 @@ textarea {
 	border: 2px solid $color-border;
 	background: $color-border;
 	box-sizing: border-box;
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-border-dark;
-		background: $color-border-dark;
-	}
 
 	&:after,
 	&:before {
@@ -673,9 +611,6 @@ textarea {
 		border-radius: 100%;
 		background: $color-background;
 		box-sizing: border-box;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-		}
 	}
 
 	&:after {
@@ -718,9 +653,6 @@ textarea {
 		padding-bottom: calc(4rem + 2vw);
 		text-align: center;
 		border-bottom: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-		}
 	}
 
 	&.has-cover .blog-box {
@@ -773,9 +705,6 @@ textarea {
 	line-height: 1em;
 	text-decoration: none;
 	color: #000;
-	@media (prefers-color-scheme: dark) {
-		color: #FFF;
-	}
 }
 
 .has-cover .blog-name {
@@ -790,9 +719,6 @@ textarea {
 	font-size: 3em;
 	line-height: 1.33334em;
 	color: $color-text-secondary;
-	@media (prefers-color-scheme: dark) {
-		color: $color-text-secondary-dark;
-	}
 }
 
 .has-cover .blog-description {
@@ -806,9 +732,6 @@ textarea {
 	&.archive-box {
 		padding-bottom: calc(4rem + 2vw);
 		border-bottom: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-		}
 	}
 
 	.archive-info {
@@ -843,9 +766,6 @@ textarea {
 		line-height: 1em;
 		margin: 1rem 0;
 		color: #000;
-		@media (prefers-color-scheme: dark) {
-			color: #FFF;
-		}
 	}
 
 	.archive-description {
@@ -855,9 +775,6 @@ textarea {
 		margin: 1rem 0;
 		font-family: 'Cardo', serif;
 		color: $color-text-secondary;
-		@media (prefers-color-scheme: dark) {
-			color: $color-text-secondary-dark;
-		}
 	}
 
 	.archive-links {
@@ -971,17 +888,11 @@ textarea {
 	overflow-y: scroll;
 	background: $color-background;
 	display: none;
-	@media (prefers-color-scheme: dark) {
-		background: $color-background-dark;
-	}
 	@media only screen and (max-width: $breakpoint-medium) {
 		display: block;
 		transition: all ease-out 0.3s;
 		transform: translate3d(0,100%,0);
 		border-top: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-		}
 	}
 
 	#results {
@@ -1016,10 +927,6 @@ textarea {
 		box-sizing: border-box;
 		box-shadow: none !important;
 		outline: 0 !important;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-			background: $color-background-dark;
-		}
 
 		&:focus,
 		&:hover {
@@ -1048,9 +955,6 @@ textarea {
 	box-sizing: border-box;
 	cursor: pointer;
 	transition: all ease-out 0.1s;
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-neutral-60;
-	}
 
 	&:after,
 	&:before {
@@ -1064,9 +968,6 @@ textarea {
 		border-radius: 2px;
 		background: $color-neutral-60;
 		transition: all ease-out 0.1s;
-		@media (prefers-color-scheme: dark) {
-			background: $color-neutral-80;
-		}
 	}
 
 	&:after {
@@ -1116,9 +1017,6 @@ textarea {
 	background: #000;
 	opacity: 0.2;
 	display: none;
-	@media (prefers-color-scheme: dark) {
-		opacity: 0.4;
-	}
 }
 
 .menu-active .nav-close {
@@ -1139,9 +1037,6 @@ textarea {
 	border-top: 1px solid transparent;
 	box-sizing: border-box;
 	transition: all linear 0.1s;
-	@media (prefers-color-scheme: dark) {
-		color: $color-text-secondary-dark;
-	}
 	@media only screen and (max-width: $breakpoint-medium) {
 		display: block;
 	}
@@ -1174,9 +1069,6 @@ textarea {
 		&:focus,
 		&:hover {
 			color: $color-text-primary;
-			@media (prefers-color-scheme: dark) {
-				color: $color-text-primary-dark;
-			}
 		}
 	}
 }
@@ -1288,9 +1180,6 @@ textarea {
 		a {
 			color: $color-neutral-25;
 			font-weight: 500;
-			@media (prefers-color-scheme: dark) {
-				color: $color-neutral-90;
-			}
 			@media only screen and (max-width: $breakpoint-medium) {
 				color: #FFF;
 			}
@@ -1330,9 +1219,6 @@ textarea {
 		&:focus,
 		&:hover {
 			color: $color-neutral-25;
-			@media (prefers-color-scheme: dark) {
-				color: $color-neutral-90;
-			}
 			@media only screen and (max-width: $breakpoint-medium) {
 				color: $color-neutral-80;
 			}
@@ -1464,9 +1350,6 @@ textarea {
 	&.active a {
 		color: $color-neutral-25;
 		font-weight: 500;
-		@media (prefers-color-scheme: dark) {
-			color: $color-neutral-90;
-		}
 	}
 
 	a {
@@ -1483,9 +1366,6 @@ textarea {
 		&:focus,
 		&:hover {
 			color: $color-neutral-25;
-			@media (prefers-color-scheme: dark) {
-				color: $color-neutral-90;
-			}
 		}
 	}
 
@@ -1500,9 +1380,6 @@ textarea {
 	font-size: 1.5em;
 	line-height: 2rem;
 	color: $color-text-secondary;
-	@media (prefers-color-scheme: dark) {
-		color: $color-text-secondary-dark;
-	}
 	@media only screen and (max-width: $breakpoint-medium) {
 		margin-bottom: 1rem;
 	}
@@ -1514,9 +1391,6 @@ textarea {
 	font-size: 1.5em;
 	line-height: 2rem;
 	color: $color-text-secondary;
-	@media (prefers-color-scheme: dark) {
-		color: $color-text-secondary-dark;
-	}
 
 	a {
 		color: inherit;
@@ -1534,16 +1408,10 @@ textarea {
 		padding-top: calc(4rem + 2vw);
 		padding-bottom: calc(4rem + 2vw);
 		border-bottom: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-		}
 	}
 
 	#results .post .post-box {
 		border-top: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-		}
 	}
 }
 
@@ -1669,9 +1537,6 @@ textarea {
 	font-weight: 700;
 	text-indent: -1px;
 	color: #000;
-	@media (prefers-color-scheme: dark) {
-		color: #FFF;
-	}
 
 	a {
 		text-decoration: none;
@@ -1695,9 +1560,6 @@ textarea {
 	font-size: 1.5rem;
 	line-height: 2rem;
 	color: $color-text-secondary;
-	@media (prefers-color-scheme: dark) {
-		color: $color-text-secondary-dark;
-	}
 
 	a {
 		display: inline-block;
@@ -1730,9 +1592,6 @@ textarea {
 		width: 8rem;
 		height: 1px;
 		background: $color-border;
-		@media (prefers-color-scheme: dark) {
-			background: $color-border-dark;
-		}
 	}
 
 	.post-meta-avatars {
@@ -1768,9 +1627,6 @@ textarea {
 		color: $color-text-primary;
 		font-weight: 500;
 		margin: 0;
-		@media (prefers-color-scheme: dark) {
-			color: $color-text-primary-dark;
-		}
 	}
 }
 
@@ -1873,9 +1729,6 @@ textarea {
 	&:focus,
 	&:hover {
 		background-color: $color-neutral-15;
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-primary-active;
-		}
 	}
 }
 
@@ -1953,17 +1806,10 @@ textarea {
 	border-top: 1px solid $color-border;
 	border-bottom: 1px solid $color-border;
 	box-sizing: border-box;
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-border-dark;
-	}
 
 	&.activated {
 		background: $color-background;
 		border: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			background: $color-background-dark;
-			border-color: $color-border-dark;
-		}
 	}
 }
 
@@ -1981,10 +1827,6 @@ textarea {
 	cursor: pointer;
 	transition: all ease 0.2s;
 	border-radius: 2em;
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-neutral-60;
-		color: $color-neutral-80;
-	}
 
 	&:focus,
 	&:hover {
@@ -2065,9 +1907,6 @@ textarea {
 	margin-top: -1px;
 	border-top: 1px solid $color-border;
 	border-bottom: 1px solid $color-border;
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-border-dark;
-	}
 }
 
 .post-nav:after {
@@ -2079,9 +1918,6 @@ textarea {
 	top: 0;
 	background: $color-border;
 	z-index: 2;
-	@media (prefers-color-scheme: dark) {
-		background: $color-border-dark;
-	}
 	@media only screen and (max-width: $breakpoint-medium) {
 		display: none;
 	}
@@ -2148,9 +1984,6 @@ textarea {
 			margin-bottom: -1px;
 			background: $color-border;
 			z-index: 2;
-			@media (prefers-color-scheme: dark) {
-				background: $color-border-dark;
-			}
 		}
 	}
 }
@@ -2166,9 +1999,6 @@ textarea {
 	text-align: center;
 	transition: all ease-out 0.2s;
 	color: $color-border;
-	@media (prefers-color-scheme: dark) {
-		color: $color-border-dark;
-	}
 
 	&:before {
 		margin: 0;
@@ -2198,9 +2028,6 @@ textarea {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	color: #000;
-	@media (prefers-color-scheme: dark) {
-		color: #FFF;
-	}
 }
 
 .post-nav-excerpt {
@@ -2258,10 +2085,6 @@ textarea {
 	transition: all ease 0.2s;
 	border-radius: 4rem;
 	box-sizing: border-box;
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-neutral-60;
-		color: $color-neutral-80;
-	}
 
 	&:focus,
 	&:hover {
@@ -2327,8 +2150,5 @@ textarea {
 
 	.pagination-box {
 		border-bottom: 1px solid $color-border;
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-border-dark;
-		}
 	}
 }
